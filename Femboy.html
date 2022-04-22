@@ -364,11 +364,11 @@ Please enter a name: &lt;&lt;textbox &quot;$name&quot; &quot;Thomas&quot; &quot;
 [[Skip Beginning|Living room]]
 &lt;hr&gt;
 
-&lt;&lt;if $enablerape == 0&gt;&gt;[[Enable rape content|Player name is][$enablerape to 1]] - currently off&lt;&lt;else&gt;&gt;[[Disable rape content|Player name is][$enablerape to 0]] - currently on&lt;&lt;/if&gt;&gt;
-&lt;&lt;if $enablewarnings == 0&gt;&gt;[[Enable content warnings|Player name is][$enablewarnings to 1]] - currently off&lt;&lt;else&gt;&gt;[[Disable content warnings|Player name is][$enablewarnings to 0]] - currently on&lt;&lt;/if&gt;&gt;
+&lt;label&gt;&lt;&lt;checkbox &quot;$enablerape&quot; false true autocheck&gt;&gt; Enable rape content?&lt;/label&gt;
+&lt;label&gt;&lt;&lt;checkbox &quot;$enablewarnings&quot; false true autocheck&gt;&gt; Enable content warnings?&lt;/label&gt;
 
 
-&lt;span style=&quot;color:#ff0000;&quot;&gt;This is a fan made update of the game created by Sensualtouch. I don´t own anything here. If you are the original author or own anything being used and want it taken down let me know and I will do. &lt;/span&gt;
+&lt;span style=&quot;color:#ff0000;&quot;&gt;This is a fan made update of the game created by Sensualtouch. I don´t own anything here. If you are the original author or own anything being used and want it taken down let us know and we will take it down as soon as possible! &lt;/span&gt;
 
 Huge thanks to the team giving me a hand with everything (in no particular order):
 
@@ -381,10 +381,16 @@ Huge thanks to the team giving me a hand with everything (in no particular order
 *Stiffyo
 *Bearded_NoPants
 
- 
+A special thank you from our community to schooledsis.
+With his insatiable drive to create this game, he gave us a game that has the potential to be amongst the greatest.
 
-If you see any bug please take a screenshot and send it to me.
-Please note, English is not my native language.
+IF YOU WANT TO CONTRIBUTE:
+&lt;a target=&quot;_blank&quot; href=&quot;https://www.discord.gg/gEwsDY8jRn&quot;&gt;Send the community a message on discord!&lt;/a&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;https://www.motoslave.net/sugarcube/2/docs&quot;&gt;Learn twine!&lt;/a&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;https://www.github.com/femboy-remake/Femboy&quot;&gt;Submit your own bug fixes through github!&lt;/a&gt;
+
+
+If you see any bug please take a screenshot and send it to us.
 All rights belong to their respective owners.
 
 
@@ -712,7 +718,7 @@ Sexual Arousal: &lt;span style=&quot;color:#be29ec;&quot;&gt;$sexual_arousal&lt;
 //Fitness:// $fitness
 
 [[Relationship][$pastPassage to passage()]]
-</tw-passagedata><tw-passagedata pid="7" name="Player&#39;s Bedroom" tags="Place" position="710,613.3333333333334" size="200,200">&lt;center&gt;[img[images/locations/players_bedroom.png]]&lt;/center&gt;
+</tw-passagedata><tw-passagedata pid="7" name="Player&#39;s Bedroom" tags="Place" position="710,613" size="200,200">&lt;center&gt;[img[images/locations/players_bedroom.png]]&lt;/center&gt;
 &lt;&lt;if $topwear == &quot;nothing&quot; || $bottomwear == &quot;nothing&quot; || $shoeswear == &quot;nothing&quot;&gt;&gt;I should get dressed&lt;&lt;elseif $underwear == &quot;nothing&quot;&gt;&gt;I can´t go commando&lt;&lt;else&gt;&gt;[[Back to Living room|Living room]]&lt;&lt;/if&gt;&gt; | [[Laptop]] | [[Wardrobe|Top]] | &lt;&lt;if $sexual_arousal &gt;= 10 &amp;&amp; $time != &quot;Midnight&quot;&gt;&gt;[[Masturbate]]&lt;&lt;elseif $sexual_arousal &lt;= 9&gt;&gt;//You are not horny enough to Masturbate.//&lt;&lt;elseif $time == &quot;Midnight&quot;&gt;&gt;//You are too tired to Masturbate.//&lt;&lt;/if&gt;&gt;
 &lt;hr&gt;
 &lt;&lt;if $make_your_bed == &quot;NO&quot;&gt;&gt;[[Make Your Bed]]&lt;&lt;else&gt;&gt;//You already made your Bed//&lt;&lt;/if&gt;&gt;
@@ -3875,7 +3881,7 @@ Albert: &lt;span style=&quot;color:#c3cb71;&quot;&gt;&quot;Yes you did. You supp
 //Money:// &lt;span style=&quot;color:#5cb85c;&quot;&gt;+100&lt;/span&gt;
 &lt;&lt;set $future_star to 1&gt;&gt;
 &lt;&lt;set $money += 100&gt;&gt;
-&lt;&lt;advanceTime&gt;&gt;</tw-passagedata><tw-passagedata pid="177" name="alice wants to go park" tags="s" position="832.3333333333334,948" size="100,100">Alice: &lt;span style=&quot;color:#b967ff;&quot;&gt;&quot;Hey perv, how are you doing?&quot; :3&lt;/span&gt;
+&lt;&lt;advanceTime&gt;&gt;</tw-passagedata><tw-passagedata pid="177" name="alice wants to go park" tags="s" position="832,948" size="100,100">Alice: &lt;span style=&quot;color:#b967ff;&quot;&gt;&quot;Hey perv, how are you doing?&quot; :3&lt;/span&gt;
 [img[images/events/alice_park.jpg]]
 $name: &lt;span style=&quot;color:#5bc0de;&quot;&gt;&quot;Can you stop caling me that?&quot;&lt;/span&gt;
 Alice: &lt;span style=&quot;color:#b967ff;&quot;&gt;&quot;You mad bro?&quot; :d&lt;/span&gt;
